@@ -1,4 +1,4 @@
-const path = require("path"); // Se requiere el path para tener la ruta actaul de donde esta el proyecto
+const path = require("path"); // Se requiere el path para tener la ruta actual de donde esta el proyecto
 const HtmlWebpackPlugin = require("html-webpack-plugin"); // Esto para cargar el html y el js de todo lo que va tener 
 const MiniCssExtractPlugin = require("mini-css-extract-plugin"); //Esto es el plugin de css para poder convertir y entender el código de sass
 
@@ -14,7 +14,7 @@ module.exports = {
      */
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "bundle.js", //Llamaremos bundle.js al alrchivo javascript ya tranpilado por babel y empaquetado por webpack
+        filename: "bundle.js", //Llamaremos bundle.js al alrchivo javascript ya transpilado por babel y empaquetado por webpack
     },
 
     /**
